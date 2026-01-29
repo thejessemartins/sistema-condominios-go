@@ -15,7 +15,7 @@ body {
   margin-top: 84px;
 
   @include media-breakpoint-up(lg) {
-    margin-left: 238px;
+    margin-left: 300px;
 
     .dash-compact & {
       margin-left: 0;
@@ -32,9 +32,7 @@ body {
   }
 
 
-  >.container-fluid {
-    //padding: 0;
-  }
+
 }
 
 .dash-row {

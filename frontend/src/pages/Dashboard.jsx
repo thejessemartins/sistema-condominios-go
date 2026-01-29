@@ -1,8 +1,8 @@
+import UnderConstruction from './UnderConstruction';
+
 const Dashboard = () => {
     return (
-        <div>
-            <h1 className="mb-4">Painel</h1>
-        </div>
+        <UnderConstruction />
     );
 };
 
