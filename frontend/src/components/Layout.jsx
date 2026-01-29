@@ -8,7 +8,7 @@ const Layout = () => {
   const [isCompact, setIsCompact] = useState(false);
   const [isMobileShow, setIsMobileShow] = useState(false);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
-  const [isUsersOpen, setIsUsersOpen] = useState(false);
+
   const [isPessoasOpen, setIsPessoasOpen] = useState(false);
   const [isCadastrosOpen, setIsCadastrosOpen] = useState(false);
   const [isFinanceiroOpen, setIsFinanceiroOpen] = useState(false);
@@ -34,10 +34,7 @@ const Layout = () => {
     setIsProfileOpen(!isProfileOpen);
   };
 
-  const toggleUsers = (e) => {
-    e.preventDefault();
-    setIsUsersOpen(!isUsersOpen);
-  };
+
 
   const togglePessoas = (e) => {
     e.preventDefault();
