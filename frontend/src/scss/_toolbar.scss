@@ -49,7 +49,7 @@
   z-index: 1000;
 
   @include media-breakpoint-up(lg) {
-    left: 238px;
+    left: 300px;
 
     .dash-compact & {
       left: 0;
