@@ -61,7 +61,7 @@ const Layout = () => {
             <i className="bi bi-list"></i>
           </a>
           <Link to="/dashboard" className="spur-logo" style={{ textDecoration: 'none' }}>
-            <i className="bi bi-fullscreen text-white"></i> <span style={{ textDecoration: 'none' }}>{appName}</span>
+            <i className="bi bi-building-fill-down text-white"></i> <span style={{ textDecoration: 'none' }}>{appName}</span>
           </Link>
         </header>
         <nav className="dash-nav-list">
